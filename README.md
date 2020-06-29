@@ -1,6 +1,7 @@
 # BMI-Calculator
-Calculates your BMI given you height and weight which you can enter in imperial or metric.
 
-It well then tell you your BMI and, if you are not a healthy weight, how much you need to lose/gain to be a healthy weight.
+Takes in the user's name, height and weight (in either imperial or metric). 
 
-It then saves this data to a CSV file along with the date and time and your name.
+Then displays their BMI, the result (underweight, healthy weight, overweight or obese), how muhc they need to lose/gain to be a healthy weight and their height and weight in both systems.
+
+Then saves all the data to a CSV file, if one doesn't exist it will create one with the appropriate headers.
